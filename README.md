@@ -1,4 +1,4 @@
-# Crete - Airbnb Ratings Classification Model
+# Crete Airbnb 4 Star Rating: Classification Model
 
 ![img](images/seattle_readme_image.jpeg)
 
@@ -18,7 +18,7 @@ The Greek National Tourism Organisation will be sharing the results of their pre
 
 ## Data
 
-- **King County Data** - I pulled the March 2023 Crete Detailed Listings data from[Insider airbnb]([http://insideairbnb.com/). Inside Airbnb is a mission driven project that provides data and advocacy about Airbnb's impact on residential communities.
+- **Insider airbnb** - I pulled the March 2023 Crete Detailed Listings data from[Insider airbnb]([http://insideairbnb.com/). Inside Airbnb is a mission driven project that provides data and advocacy about Airbnb's impact on residential communities.
 
 The dataset includes over 30,000 entries and 74 rows of features related to the physical airbnb properties and characteristics of the hosts and reviews. It is scraped information pulled from the website. 
 
@@ -34,6 +34,9 @@ I used an iterative model approach to identify the best type of classification m
 - bedrooms
 
 I used **precision** as the main metric to determine the model's performance. The precision score helps reduce false positives while predicting ratings. This is essential as we do not want to misclassify low star properties as having high starts, as it will give airbnb hosts false expectations of an increase in bookings and reviews.
+
+
+![img](images/feature_importance_rating)
 
 ## Results
 

@@ -1,6 +1,6 @@
 # Crete Airbnb 4 Star Rating: Classification Model
 
-![img](images/greece_beach.png)
+![img](images/crete_home.jpg)
 
 **Author**:
 

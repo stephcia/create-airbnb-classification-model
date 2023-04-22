@@ -1,6 +1,6 @@
 # Crete Airbnb 4 Star Rating: Classification Model
 
-![img](images/seattle_readme_image.jpeg)
+![img](images/seattle_readme_image.jpg)
 
 **Author**:
 
@@ -36,7 +36,7 @@ I used an iterative model approach to identify the best type of classification m
 I used **precision** as the main metric to determine the model's performance. The precision score helps reduce false positives while predicting ratings. This is essential as we do not want to misclassify low star properties as having high starts, as it will give airbnb hosts false expectations of an increase in bookings and reviews.
 
 
-![img](images/feature_importance_rating)
+![img](images/feature_importance_rating.png)
 
 ## Results
 

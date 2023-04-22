@@ -1,4 +1,4 @@
-# Crete Airbnb 4 Star Rating: Classification Model
+# Crete, Greece | Airbnb 4 Star Rating Classification Model 
 
 ![img](images/crete_home.jpg)
 

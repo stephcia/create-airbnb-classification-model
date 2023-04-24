@@ -20,7 +20,7 @@ The Greek National Tourism Organisation aims to present their predictive analysi
 
 ## Methods
 
-To identify the best classification model for predicting Airbnb ratings, an iterative approach was used. The final model selected was a **decision tree** that includes both numerical and categorical variables such as 
+To identify the best classification model for predicting Airbnb ratings, an iterative approach was used. The final model selected was a **decision tree** with a precision score of 0.85 that includes both numerical and categorical variables such as: 
 
 - home essentials (dishes and kitchen supplies)
 - superhost
@@ -31,7 +31,7 @@ To identify the best classification model for predicting Airbnb ratings, an iter
 
 The precision score was used as the main metric to determine the model's performance. Precision helps reduce false positives while predicting ratings, which is essential to prevent misclassification of low-rated properties as having high ratings, giving Airbnb hosts false expectations of an increase in bookings and reviews.
 
-![img](images/feature_importance_rating.png)
+![img](images/model_performance.png)
 
 ## Results
 
@@ -43,6 +43,8 @@ The analysis of the predictive model identified four key features with the highe
 - superhost*
 
 * Although superhost is among the top features, since the objective is to assist new Airbnb hosts in optimizing their listings and properties, this metric is not actionable and was not included in the final recommendations.
+
+![img](images/feature_importance_rating.png)
 
 ### Home Essentials
 Home essentials and dishes (kitchen supplies) are the most important features in predicting airbnb ratings. Essential amenities are the basic items that a guest expects in order to have a comfortable stay. These include:
@@ -81,7 +83,7 @@ To gain a more comprehensive understanding of the factors that influence Airbnb 
 
 ## For More Information
 
-See the full analysis in the [Jupyter Notebook](https://github.com/stephcia/crete-airbnb-classification-model.git)
+See the full analysis in the [Jupyter Notebook](https://github.com/stephcia/crete-airbnb-classification-model/blob/main/crete_airbnb_ratings.ipynb)
 
 ## Repository Structure
 
